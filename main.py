@@ -1,8 +1,8 @@
-from find_by_boyera_mure import FindByBoyeraMure
+from boyer_mure import BoyerMure
 
 
 def main():
-    input_string = FindByBoyeraMure("Do you have iot drugs ?)")
+    input_string = BoyerMure("Do you have iot drugs ?)")
     print(input_string.search("iot"))
 
 
